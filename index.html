@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek -Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+           color: rgb(153, 153, 225);
+           font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+        .firstSection > div{
+            width:30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 80%;
+        }
+        .purple{
+            color:rgb(170, 107, 228);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color:rgb(170, 107, 228);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 57vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 47vh;
+        }
+        .thirdSection h1{
+            font-size: 1.9rem;
+        }
+        .thirdSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .thirdSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 12px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class= "purple">Abhishek</span>
+                <div>
+                    and I am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        As a frontend web developer, I craft intuitive and dynamic user interfaces that enhance user experiences. With expertise in HTML, CSS, and JavaScript frameworks, I transform design concepts into responsive and interactive web applications. I am dedicated to optimizing performance and ensuring seamless functionality across all devices.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer
+                    </div>
+                    <div class="vertical-desc">
+                        As a Node.js developer, I specialize in building scalable and efficient server-side applications. My expertise includes developing robust APIs, integrating third-party services, and optimizing performance. I am passionate about leveraging Node.js's asynchronous, event-driven architecture to deliver fast and responsive solutions. I thrive on tackling challenges and creating reliable backend systems that meet modern web development standards.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Video Editor
+                    </div>
+                    <div class="vertical-desc">
+                        As a video editor using DaVinci Resolve, I specialize in crafting seamless and captivating visual narratives. My expertise lies in utilizing advanced editing techniques to enhance storytelling and ensure high production quality. I am passionate about creating impactful videos that resonate with audiences, leveraging DaVinci Resolve's powerful tools to achieve professional-grade results efficiently and creatively.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Education Mentor
+                    </div>
+                    <div class="vertical-desc">
+                        As an education mentor at Physics Wallah Private Limited, I take pride in guiding and supporting students on their academic journeys. My role involves providing personalized mentoring, clarifying complex concepts, and fostering a deep understanding of physics. I am dedicated to empowering students to excel by creating engaging learning experiences that inspire curiosity and academic growth.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        UI/UX Designer
+                    </div>
+                    <div class="vertical-desc">
+                        As a UI/UX designer, I excel in creating user-friendly and visually compelling digital experiences using Figma. I have a keen eye for detail and a passion for transforming complex ideas into elegant, intuitive designs. My work focuses on delivering aesthetically pleasing and highly functional interfaces that prioritize user satisfaction and enhance overall engagement.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Content Writer
+                    </div>
+                    <div class="vertical-desc">
+                        As a content writer, I excel in crafting engaging and compelling narratives that captivate my audience. I have a talent for transforming ideas into clear, persuasive, and well-structured content. My work focuses on delivering high-quality writing that informs, entertains, and resonates with readers, enhancing their overall experience.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <span class="text-gray">What I have developed so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Amazon Website
+                    </div>
+                    <div class="vertical-desc">
+                        I have created a fully functional e-commerce website inspired by Amazon, developed from scratch using HTML and CSS. This project showcases my ability to design intuitive user interfaces and implement responsive web design principles effectively.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Nextflix Website
+                    </div>
+                    <div class="vertical-desc">
+                        I have developed a Netflix-inspired website using HTML and CSS, demonstrating my skills in front-end web development and UI/UX design. The project showcases my ability to create a visually appealing and user-friendly streaming platform interface.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Currency Convertor
+                    </div>
+                    <div class="vertical-desc">
+                        I have built a currency converter web application using HTML, CSS, and JavaScript. This project showcases my proficiency in front-end development and integrating real-time API data to provide accurate currency conversion functionalities.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Calculator
+                    </div>
+                    <div class="vertical-desc">
+                        I have developed a calculator web application using HTML, CSS, and JavaScript. This project highlights my expertise in front-end web development and my ability to create interactive and functional user interfaces.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Weather App
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a dynamic weather application using HTML, CSS, and JavaScript, incorporating an API to fetch and display current weather conditions. This project underscores my competence in front-end development and integrating external data sources to deliver informative user experiences.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Snake Game
+                    </div>
+                    <div class="vertical-desc">
+                        I designed and implemented a retro-style Snake game using HTML, CSS, and JavaScript. This project showcases my proficiency in front-end web development and game logic implementation, focusing on creating an engaging and interactive gaming experience.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Abhishek's Portfolio</h3>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; www.abhisheksportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Graphic Designer', 'Web Designer','Video Editor'],
+          typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
